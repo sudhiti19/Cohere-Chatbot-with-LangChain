@@ -1,5 +1,5 @@
 from langchain_community.llms import Cohere
-chat = Cohere(cohere_api_key="YgzcK00WuBRyeyyMrEYsuhc4U7Gail955W0sTfyc")
+chat = Cohere(cohere_api_key="your_cohere_api_key")
 
 from langchain.schema.messages import HumanMessage, SystemMessage
 messages = [
